@@ -1,0 +1,15 @@
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\ObeoDesign.exe.config
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\ObeoDesign.exe
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\ObeoDesign.pdb
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\MetroFramework.dll
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\MetroFramework.Fonts.dll
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.Form1.resources
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.Properties.Resources.resources
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.csproj.GenerateResource.Cache
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.exe
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.pdb
+c:\users\o'shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.Form2.resources
+C:\Users\O'Shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.Form3.resources
+C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\Newtonsoft.Json.dll
+C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.csprojResolveAssemblyReference.cache
+C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\Newtonsoft.Json.xml
