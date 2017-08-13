@@ -11,8 +11,8 @@ namespace ObeoDesign
         private static Form1 _Home;
         private static Form2 _Route;
         private static Form3 _RouteResults;
-        private static String _urlResponse = "DEFAULT";
-        private static String _mode = "";
+        private static String _urlResponse = "N/A";
+        private static String _mode = "N/A";
 
         public static Form1 Home {
             get {

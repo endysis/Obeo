@@ -62,15 +62,15 @@ namespace ObeoDesign
             Destination_TextBox.Text = "";
         }
 
-        private void Execute_Tile_Click(object sender, EventArgs e)
+        private async void Execute_Tile_Click(object sender, EventArgs e)
         {
             origin = origin + Origin_TextBox.Text.ToLower();
             destination = destination + Destination_TextBox.Text.ToLower();
             mode = mode + Method_Tile.Text.ToLower();
             url = url + units + origin + destination + mode + API_KEY;
 
-            ObeoRestClient o = new ObeoRestClient(url, httpRequestType.GET);
-            String response = o.executeRequest();
+            ObeoRestClient o = new ObeoRestClient(url);
+            String response = await o.GetRequest();
             FormSpawner.urlResponse = response;
             FormSpawner.mode = Method_Tile.Text;
             this.Hide();

@@ -13,3 +13,4 @@ C:\Users\O'Shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\
 C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\Newtonsoft.Json.dll
 C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.csprojResolveAssemblyReference.cache
 C:\Users\O'Shea\Documents\Visual Studio 2017\Projects\ObeoDesign\ObeoDesign\bin\Debug\Newtonsoft.Json.xml
+C:\Users\O'Shea\documents\visual studio 2017\Projects\ObeoDesign\ObeoDesign\obj\Debug\ObeoDesign.Form4.resources

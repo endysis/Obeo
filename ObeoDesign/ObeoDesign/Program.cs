@@ -17,6 +17,8 @@ namespace ObeoDesign
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(FormSpawner.Home);
+  
+           
         }
     }
 }
