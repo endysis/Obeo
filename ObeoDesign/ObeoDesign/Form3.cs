@@ -29,8 +29,7 @@ namespace ObeoDesign
             Origin_Label.Text = r.Origin;
             Destination_Label.Text = r.Destination;
             Distance_Label.Text = r.Distance;
-            Duration_Label.Text = r.Duration + " if " + FormSpawner.mode.ToLower();
-            
+            Duration_Label.Text = r.Duration + " if " + FormSpawner.mode.ToLower();   
         }
 
     

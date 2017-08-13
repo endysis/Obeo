@@ -14,7 +14,6 @@ namespace ObeoDesign
 {
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
-        static String data; 
 
         public Form1()
         {
@@ -36,8 +35,10 @@ namespace ObeoDesign
 
         private void Saved_Tile_Click(object sender, EventArgs e)
         {
-            // Saved_Tile.Text = await ObeoRestClient.GetRequest();
-           
+            this.Hide();
+            FormSpawner.SavedPage.Show();
+            FormSpawner.SavedPage.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
+
         }
 
      
