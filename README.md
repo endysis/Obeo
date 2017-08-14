@@ -33,13 +33,12 @@ On running the project a menu is presented with the following options.
 ```
 [1] Plan your Route
 [2] Plan your Accomodation
-[3] Vie Holiday Members
+[3] View Holiday Members
 [4] Saved Routes
 ```
 
 Please not the only fucntional tiles are ...
 
-For Example on entering the key...
 ```
 [1] Plan your Route
 [4] Saved Routes
@@ -89,8 +88,8 @@ Below shows the consequence of each parameter
 
 |Parameter|Possible Values|Description| 
 |--|--|--| 
-|dataname|origin,destination,distance,duration,mode|Select the datatype/types to output. For multiple datatypes, separate each word with a "-"| 
-|orderby|origin,destination,distance,duration,mode|Order by a certain type| 
+|dataname|origin, destination, distance, duration, mode|Select the datatype/types to output. For multiple datatypes, separate each word with a "-"| 
+|orderby|origin, destination, distance, duration, mode|Order by a certain type| 
 |order|asc,dec|Present the information in ascending or descending order| 
 |num|0 - inf|Specify the number of records to output| 
 |format|json,html|Specify the output format| 
