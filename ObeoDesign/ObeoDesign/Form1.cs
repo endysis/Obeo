@@ -36,8 +36,9 @@ namespace ObeoDesign
         private void Saved_Tile_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormSpawner.SavedPage.Show();
-            FormSpawner.SavedPage.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
+            Form4 savedPage = new Form4();
+            savedPage.Show();
+            savedPage.SetBounds(this.Location.X, this.Location.Y, this.Width, this.Height);
 
         }
 

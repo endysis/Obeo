@@ -40,9 +40,9 @@
             this.DataLabel1.AutoSize = true;
             this.DataLabel1.Location = new System.Drawing.Point(23, 98);
             this.DataLabel1.Name = "DataLabel1";
-            this.DataLabel1.Size = new System.Drawing.Size(81, 19);
+            this.DataLabel1.Size = new System.Drawing.Size(65, 19);
             this.DataLabel1.TabIndex = 0;
-            this.DataLabel1.Text = "metroLabel1";
+            this.DataLabel1.Text = "Loading...";
             this.DataLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // DataLabel2
@@ -50,9 +50,8 @@
             this.DataLabel2.AutoSize = true;
             this.DataLabel2.Location = new System.Drawing.Point(23, 127);
             this.DataLabel2.Name = "DataLabel2";
-            this.DataLabel2.Size = new System.Drawing.Size(83, 19);
+            this.DataLabel2.Size = new System.Drawing.Size(0, 0);
             this.DataLabel2.TabIndex = 1;
-            this.DataLabel2.Text = "metroLabel2";
             this.DataLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // DataLabel3
@@ -60,9 +59,8 @@
             this.DataLabel3.AutoSize = true;
             this.DataLabel3.Location = new System.Drawing.Point(23, 156);
             this.DataLabel3.Name = "DataLabel3";
-            this.DataLabel3.Size = new System.Drawing.Size(83, 19);
+            this.DataLabel3.Size = new System.Drawing.Size(0, 0);
             this.DataLabel3.TabIndex = 2;
-            this.DataLabel3.Text = "metroLabel3";
             this.DataLabel3.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // DataLabel4
@@ -70,9 +68,8 @@
             this.DataLabel4.AutoSize = true;
             this.DataLabel4.Location = new System.Drawing.Point(23, 185);
             this.DataLabel4.Name = "DataLabel4";
-            this.DataLabel4.Size = new System.Drawing.Size(83, 19);
+            this.DataLabel4.Size = new System.Drawing.Size(0, 0);
             this.DataLabel4.TabIndex = 3;
-            this.DataLabel4.Text = "metroLabel4";
             this.DataLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // Home_Tile

@@ -10,8 +10,6 @@ namespace ObeoDesign
     {
         private static Form1 _Home;
         private static Form2 _Route;
-        private static Form3 _RouteResults;
-        private static Form4 _SavedPage;
         private static String _urlResponse = "N/A";
         private static String _mode = "N/A";
 
@@ -33,28 +31,6 @@ namespace ObeoDesign
                     _Route = new Form2();
                 }
                 return _Route;
-            }
-        }
-        public static Form3 RouteResults
-        {
-            get
-            {
-                if (_RouteResults == null)
-                {
-                    _RouteResults = new Form3();
-                }
-                return _RouteResults;
-            }
-        }
-        public static Form4 SavedPage
-        {
-            get
-            {
-                if (_SavedPage == null)
-                {
-                    _SavedPage = new Form4();
-                }
-                return _SavedPage;
             }
         }
 

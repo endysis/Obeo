@@ -18,7 +18,6 @@ namespace ObeoDesign
     class ObeoRestClient
     {
         String uri;
-        httpRequestType httpMethod;
      
        public ObeoRestClient(String u)
         {
@@ -26,30 +25,7 @@ namespace ObeoDesign
         }
 
         public string uriEndpoint { get { return uri; } set { uri = uriEndpoint; } }
-        public httpRequestType requestMethod { get { return httpMethod; } set { httpMethod = requestMethod; } }
-
-        public String executeRequest() {
-            String strResponse = "";
-
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
-            request.Method = httpMethod.ToString();
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            {
-                if (response.StatusCode != HttpStatusCode.OK)
-                {
-                    throw new ApplicationException("Error : It NAH Work " + response.StatusCode.ToString());
-                }
-                using (Stream responseStream = response.GetResponseStream())
-                {
-                    if (responseStream != null) {
-                        using (StreamReader reader = new StreamReader(responseStream)) {
-                            strResponse = reader.ReadToEnd();
-                        }
-                    }
-                }
-            }
-                return strResponse;
-        }
+    
 
         public async Task<string> GetRequest()
         {
